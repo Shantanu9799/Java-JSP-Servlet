@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>ServletContextConfig</display-name>
+  <servlet>
+    <description></description>
+    <display-name>MyServlet</display-name>
+    <servlet-name>MyServlet</servlet-name>
+    <servlet-class>pac1.shanu.MyServlet</servlet-class>
+    
+    <init-param>
+    <param-name>name</param-name>
+  	<param-value>Nandini</param-value>
+    </init-param>
+    
+    <init-param>
+    <param-name>phone</param-name>
+  	<param-value>Xiomi Neo Lite</param-value>
+    </init-param>
+    
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>MyServlet</servlet-name>
+    <url-pattern>/MyServlet</url-pattern>
+  </servlet-mapping>
+  <context-param>
+  <param-name>name</param-name>
+  <param-value>Shantanu</param-value>
+  </context-param>
+  <context-param>
+  <param-name>phone</param-name>
+  <param-value>Samsung Galaxy F62</param-value>
+  </context-param>
+</web-app>
