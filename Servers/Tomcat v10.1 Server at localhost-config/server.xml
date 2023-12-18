@@ -140,7 +140,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="DempApp" path="/DempApp" reloadable="true" source="org.eclipse.jst.jee.server:DempApp"/><Context docBase="LogInSystem" path="/LogInSystem" reloadable="true" source="org.eclipse.jst.jee.server:LogInSystem"/><Context docBase="ServletContextConfig" path="/ServletContextConfig" reloadable="true" source="org.eclipse.jst.jee.server:ServletContextConfig"/><Context docBase="Annotation" path="/Annotation" reloadable="true" source="org.eclipse.jst.jee.server:Annotation"/></Host>
+      <Context docBase="DempApp" path="/DempApp" reloadable="true" source="org.eclipse.jst.jee.server:DempApp"/><Context docBase="LogInSystem" path="/LogInSystem" reloadable="true" source="org.eclipse.jst.jee.server:LogInSystem"/><Context docBase="ServletContextConfig" path="/ServletContextConfig" reloadable="true" source="org.eclipse.jst.jee.server:ServletContextConfig"/><Context docBase="Annotation" path="/Annotation" reloadable="true" source="org.eclipse.jst.jee.server:Annotation"/><Context docBase="JSP_Tags" path="/JSP_Tags" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Tags"/></Host>
     </Engine>
   </Service>
 </Server>
