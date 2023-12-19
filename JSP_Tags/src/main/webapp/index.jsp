@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 
-<!-- DIrective Tag (use to import packages) -->
+<!-- Directive Tag (use to import packages) -->
 <%@page import = "java.util.Scanner" %>    
 
 <!DOCTYPE html>
@@ -30,10 +30,11 @@
 	 %>
 	 
 	 <!-- Declaration Tag -->
+	 <!-- It will be available everywhere -->
 	 <%! 
 	 	int power = 10;
 	 %>
-	 <!-- It will be available everywhere -->
+	 
 	 <h3>My Power is <%= power %></h3>
 	 
 	 <!-- Expression Tag -->
